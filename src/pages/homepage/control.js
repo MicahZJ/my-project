@@ -1,3 +1,6 @@
+import attractionsBox from './attractions_play/index'
+import trafficBox from './traffic_play/index'
+import otherBox from './other_play'
 
 export default {
   data () {
@@ -8,11 +11,15 @@ export default {
       flag2: false,
       tabs: [
         {
-          type: '买东西',
+          type: '景点攻略',
           view: 'order-buy'
         },
         {
-          type: '卖东西',
+          type: '交通攻略',
+          view: 'order-sell'
+        },
+        {
+          type: '其他攻略',
           view: 'order-sell'
         }
       ],
@@ -32,6 +39,9 @@ export default {
     }
   },
   components: {
+    attractionsBox,
+    trafficBox,
+    otherBox,
   },
   onLoad () {},
   onShow () {},
