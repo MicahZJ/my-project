@@ -1,0 +1,43 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wx198f6f8f9a57ace8",
+	"projectname": "my-project",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "test",
+					"pathName": "pages/personal_orders/main",
+					"query": ""
+				}
+			]
+		}
+	}
+}
